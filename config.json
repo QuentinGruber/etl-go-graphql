@@ -1,0 +1,18 @@
+{
+	"roleMap": { "staff": "admin", "students": "student", "teachers": "teacher" },
+	"datasetRestricted": {
+		"absences": ["admin", "student"],
+		"accounting": ["admin"],
+		"groups": ["admin", "teacher"],
+		"internships": ["admin", "student"],
+		"oldstudents": ["admin"],
+		"sponsorships": ["admin", "student"],
+		"staff": ["admin"],
+		"training": ["admin", "student"]
+	},
+	"RestrictAllDatasets":true,
+	"cryptoKey": "aes256key-32Characters1234567890",
+	"dataFolderPath": "./data",
+	"serverAddr": ":3001",
+	"Auth0Domain": "https://dev-nkxand9c.us.auth0.com"
+}
