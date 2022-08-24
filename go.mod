@@ -1,4 +1,4 @@
-module etl-go
+module etl-go-graphql
 
 go 1.18
 

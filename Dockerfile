@@ -3,4 +3,4 @@ WORKDIR /usr/src/app
 COPY . .
 RUN go build
 EXPOSE 3001
-CMD [ "./etl-go"]
+CMD [ "./etl-go-graphql"]
